@@ -1,0 +1,30 @@
+.mat-toolbar {
+  margin: 24px;
+  width: auto;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.title-center {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+mat-form-field {
+  padding: 5px;
+}
+
+.green-snackbar {
+  border-radius: 5px;
+  outline-offset: 2px;
+  outline: 3px solid #54b500;
+  --mdc-snackbar-container-color: #54b500;
+  background-color: #54b500;
+}
+
+.black-snackbar {
+  border-radius: 5px;
+  outline-offset: 2px;
+  outline: 3px solid #000000;
+  --mdc-snackbar-container-color: #000000;
+}

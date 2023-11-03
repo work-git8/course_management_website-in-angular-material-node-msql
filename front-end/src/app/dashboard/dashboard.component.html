@@ -1,0 +1,47 @@
+<body>
+  <mat-card>
+    <b><span>Dashboard</span></b>
+  </mat-card>
+  <br />
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <h2 class="title">Total Candidates:</h2>
+          <h1 class="title">{{ data?.candidate }}</h1>
+     <!----<p>
+            <button class="button" [routerLink]="['/course/candidate']">
+              View Students
+            </button>
+          </p>-->
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <h2 class="title">Total Courses:</h2>
+          <h1 class="title">{{ data?.course }}</h1>
+      <!----<p>
+            <button class="button" [routerLink]="['/course/candidate']">
+              View Courses
+            </button>
+          </p>-->
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <h2 class="title">Total Bills:</h2>
+          <h1 class="title">{{ data?.bill }}</h1>
+       <!----   <p>
+            <button class="button" [routerLink]="['/course/candidate']">
+              View Bills
+            </button>
+          </p>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
