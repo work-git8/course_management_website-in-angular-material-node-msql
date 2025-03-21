@@ -1,5 +1,5 @@
 # course_management_website-in-angular-material-node-msql
-Using Angular in front-end and Node and MySQL in backend a dynamic web alication is built for managing course enrolment in an academy or institution
+Using Angular in front-end and Node and MySQL in backend a dynamic web application is built for managing course enrolment in an academy or institution
 Angular CLI: 16.2.7 Node: 18.12.0 Package Manager: npm 8.19.2
 
 steps to run
